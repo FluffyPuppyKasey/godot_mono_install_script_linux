@@ -12,8 +12,8 @@ Adapted from [SingingBush/godot-fedora.md](https://gist.github.com/SingingBush/a
     - Debian-based: `imagemagick`
     - Arch: `imagemagick `
     - Fedora: `ImageMagick`
-.NET (Latest version is 10.0 as of latest commit)
-- The command is the same for every package manager and follows the format `dotnet-sdk-<version>`. It's available on the following the distos using the latest version as an example.
+- .NET (Latest version is 10.0 as of latest commit)
+- The command is the same for every package manager and follows the format `dotnet-sdk-<version>`. It's available on the following the distros, using the latest version as an example.
     - Debian-based: `dotnet-sdk-10.0`
     - Arch AUR: `dotnet-sdk-10.0`
     - Fedora: `dotnet-sdk-10.0`
