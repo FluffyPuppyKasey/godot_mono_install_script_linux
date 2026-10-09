@@ -25,3 +25,9 @@ echo "Icon=/opt/godot-$GODOT_VERSION-mono/godot.png" >> godot-mono.desktop
 echo "Terminal=false" >> godot-mono.desktop
 echo "Type=Application" >> godot-mono.desktop
 echo "Categories=Development; Games;" >> godot-mono.desktop
+
+mv godot-mono.desktop /usr/local/share/applications
+
+# Clean up
+rm Godot_v$GODOT_VERSION-stable_mono_linux_x86_64.zip
+rm -r Godot_v$GODOT_VERSION-stable_mono_linux_x86_64/
