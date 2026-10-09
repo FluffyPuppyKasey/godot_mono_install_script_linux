@@ -35,4 +35,5 @@ mv godot-mono.desktop /usr/local/share/applications
 
 # Clean up
 rm Godot_v$GODOT_VERSION-stable_mono_linux_x86_64.zip
-rm -r Godot_v$GODOT_VERSION-stable_mono_linux_x86_64/
+rm -r Godot_v$GODOT_VERSION-stable_mono_linux_x86_64
+rm godot.svg
